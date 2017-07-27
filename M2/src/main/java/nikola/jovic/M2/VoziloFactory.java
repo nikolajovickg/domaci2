@@ -7,13 +7,14 @@ public class VoziloFactory {
 	private VoziloFactory() {
 	}
 
-	public static Vozilo getVozilo(TipVozila tip) {
+	public static Vozilo vozilo(TipVozila tip) {
 		switch (tip) {
 		case VAZDUSNI:
 			return new Avion();
 		case KOPNENI:
-		default:
 			return new Automobil();
+		default:
+			return null;
 		}		
 	}
 }
