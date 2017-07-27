@@ -16,4 +16,9 @@
   	</dependency>
   	
   </dependencies>
+  <parent>
+  	<groupId>nikola.jovic</groupId>
+  	<artifactId>main</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  </parent>
 </project>
