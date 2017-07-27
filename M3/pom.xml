@@ -5,12 +5,15 @@
   <groupId>nikola.jovic</groupId>
   <artifactId>M3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
 
   <name>M3</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+  <parent>
+  	<groupId>nikola.jovic</groupId>
+  	<artifactId>main</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  </parent>
 </project>
